@@ -11,13 +11,14 @@
 /* Common Style End */
 /* Navbar Section Start */
 header {
+  padding: 10px 0;
   background-image: url("../assets/Hero-bg.png");
   height: 550px;
 }
 .nav_container {
   display: flex;
   justify-content: space-between;
-  margin: 20px auto;
+  margin: 0 auto;
   width: 1140px;
   height: 151px;
 }
@@ -41,6 +42,7 @@ header {
 .hero_container {
   text-align: center;
   font-size: 35px;
+  margin: 20px auto;
 }
 .hero_button {
   width: 175px;
@@ -108,7 +110,7 @@ header {
 
 .focus {
   width: 1140px;
-  margin: 60px auto;
+  margin: 50px auto;
   text-align: center;
 }
 .focus_title {
@@ -151,3 +153,31 @@ header {
   font-weight: bold;
 }
 /* Main Section End */
+
+/* Footer Section Start */
+footer {
+  text-align: center;
+
+  background-color: white;
+}
+.footer_title {
+  font-size: 60px;
+  font-weight: 800;
+  color: #4e47ff;
+  padding-top: 100px;
+}
+.footer_description {
+  color: #8987a1;
+  margin: 10px 0;
+}
+
+.footer_menu ol li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px 20px;
+}
+.footer_menu a {
+  text-decoration: none;
+  color: #8987a1;
+}
+/* Footer Section End */
