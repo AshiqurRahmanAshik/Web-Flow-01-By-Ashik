@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Flow 01</title>
+    <!-- Inter Google Font -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+    </style>
+
     <!--Raleway Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+
     <!-- External CSS -->
     <link rel="stylesheet" href="style/style.css" />
   </head>
@@ -70,11 +76,83 @@
         </div>
       </div>
     </section>
+    <section class="user_feedback">
+      <h3 class="user_feedback_title">What our users say</h3>
+      <div class="user_reviewer">
+        <div class="reviewer1">
+          <div class="reviewer_star">
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+          </div>
+          <div class="reviewer_comments">
+            <h4 class="reviewer_comment">Loved By Designers</h4>
+            <p class="reviewer_comment_description">
+              This template instantly leveled up our presence
+            </p>
+          </div>
+          <div class="reviewer_identity">
+            <div class="reviewer_image"><img src="./assets/avatar.png""></div>
+            <div class="reviewer_info">
+              <p class="reviewer_name">Liam Carter</p>
+              <time datetime="">11.07.25</time>
+            </div>
+          </div>
+        </div>
+        <div class="reviewer1">
+          <div class="reviewer_star">
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+          </div>
+          <div class="reviewer_comments">
+            <h4 class="reviewer_comment">Loved By Designers</h4>
+            <p class="reviewer_comment_description">
+              An excellent UI kit that saved us tons of development time.
+            </p>
+          </div>
+          <div class="reviewer_identity">
+            <div class="reviewer_image"><img src="./assets/avatar.png""></div>
+            <div class="reviewer_info">
+              <p class="reviewer_name">Ava Thompson</p>
+              <time datetime="">11.07.25</time>
+            </div>
+          </div>
+        </div>
+        <div class="reviewer1">
+          <div class="reviewer_star">
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+          </div>
+          <div class="reviewer_comments">
+            <h4 class="reviewer_comment">Loved By Designers</h4>
+            <p class="reviewer_comment_description">
+              This template helped our team stay focused and improve
+              productivity.
+            </p>
+          </div>
+          <div class="reviewer_identity">
+            <div class="reviewer_image"><img src="./assets/avatar.png""></div>
+            <div class="reviewer_info">
+              <p class="reviewer_name">Zayan Malik</p>
+              <time datetime="">11.07.25</time>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="focus">
       <div class="focus_about">
         <h3 class="focus_title">Ready to focus better</h3>
         <p class="action_description">
-          This template instantly leveled up our presence.” – Studio Vertex.
+          "This template instantly leveled up our presence.” – Studio Vertex.
         </p>
         <button class="action_button primary_color">Get Started Free</button>
       </div>
@@ -99,7 +177,13 @@
           <label for="Email">Message</label>
           <br />
 
-          <input type="text" placeholder="Write Your Message" />
+          <textarea
+            name=""
+            id=""
+            rows="5"
+            cols="51"
+            placeholder="Write Your Message..."
+          ></textarea>
         </form>
         <button class="primary_color get_in_touch_button">Get in Touch</button>
       </div>
@@ -117,10 +201,10 @@
       </div>
       <div class="footer_menu">
         <ol>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">How it works</a></li>
-          <li><a href="">Services</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">How it works</a></li>
+          <li><a href="/">Services</a></li>
         </ol>
       </div>
     </footer>

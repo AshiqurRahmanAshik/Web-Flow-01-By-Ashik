@@ -8,10 +8,13 @@
   color: #fff;
   background-color: #4e47ff;
 }
+button:hover {
+  background-color: rgba(39, 234, 39, 0.774);
+}
 /* Common Style End */
 /* Navbar Section Start */
 header {
-  padding: 10px 0;
+  padding: 30px 0;
   background-image: url("../assets/Hero-bg.png");
   height: 550px;
 }
@@ -90,10 +93,14 @@ header {
   padding: 30px 0;
   border-radius: 10px;
 }
+.active_users h4,
+time {
+  font-family: "Inter";
+}
 .user_title {
   text-align: center;
   font-size: 30px;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 .user_quantity {
   display: flex;
@@ -105,12 +112,51 @@ header {
 .user_number {
   font-size: 60px;
   color: #4e47ff;
-  margin: 30px 0;
+  margin-top: 30px;
 }
-
-.focus {
+.user_feedback {
   width: 1140px;
   margin: 50px auto;
+  text-align: center;
+}
+.user_feedback_title {
+  font-size: 40px;
+  margin: 200px 0 30px 0;
+}
+.user_reviewer {
+  display: flex;
+  justify-content: space-between;
+}
+.reviewer1 {
+  width: 30%;
+  background-color: #f2eded;
+
+  padding: 30px 10px;
+  border-radius: 10px;
+}
+.reviewer_identity {
+  display: flex;
+  margin: 10px 0;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.reviewer_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.reviewer_comment {
+  margin: 10px 0;
+}
+.reviewer_image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.focus {
+  width: 1140px;
+  margin: 150px auto;
   text-align: center;
 }
 .focus_title {
@@ -144,7 +190,9 @@ header {
   border-radius: 5px;
   padding: 5px;
 }
-
+.get_in_touch textarea {
+  padding: 15px 5px;
+}
 .get_in_touch_button {
   height: 35px;
   width: 370px;
